@@ -1,0 +1,119 @@
+.cont{
+    width: 450px;
+}
+
+.head{
+    width: 170px;
+    height: 120px;
+    background-color:  #5f93e8;
+    color: red;
+    margin: 10px 500px;
+    border-top-left-radius: 90px 100px;
+    border-top-right-radius: 90px 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+.left-eye{
+    width: 12px;
+    height: 13px;
+    background-color: rgb(255, 255, 255);
+    margin: 80px 40px 5px 35px;
+    border-radius: 120px 120px 120px 120px / 130px 130px 130px 130px;
+
+}
+
+.right-eye{
+    width: 12px;
+    height: 13px;
+    background-color: rgb(255, 255, 255);
+    margin: 80px 35px 10px 25px;
+    border-radius: 120px 130px;
+}
+
+.body{
+    background-color: #5f93e8;
+    width: 170px;
+    height: 200px;
+    margin: 5px 10px 0px 500px ;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.legs{
+    
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.left-leg{
+    background-color: #5f93e8;
+    width: 35px;
+    height: 70px;
+    margin: 0px 537px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.right-leg{
+    background-color: #5f93e8;
+    width: 35px;
+    height: 70px;
+    margin: 0px 597px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    bottom: 70px;
+}
+
+.left-hand{
+    background-color: #5f93e8;
+    width: 35px;
+    height: 120px;
+    margin: 50px 10px 10px 455px;
+    position: relative;
+    bottom: 350px;
+    border-radius: 30px;
+}
+
+.right-hand{
+background-color: #5f93e8;
+width: 35px;
+height: 120px;
+margin: 50px 10px 10px 455px;
+position: relative;
+bottom: 520px;
+left: 225px;
+border-radius: 30px;
+}
+
+.head:hover{
+    width: 220px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    transition: ease-in-out;
+    margin-left: 470px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.left-leg:hover{
+    transform: rotate(10deg);
+    position: relative;
+    bottom: 10px;
+
+}
+
+.right-leg:hover{
+    transform: rotate(-30deg);
+    position: relative;
+    bottom: 85px;
+}
+
+.body:hover{
+    opacity: 0;
+}
